@@ -1,0 +1,152 @@
+Running test with user vmarvlx
+CMake Error: The source directory "/home/vmarvlx/coursera_linux_programming/Assignment_2/assignment-2-arvind747" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+make: *** No rule to make target 'clean'.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
+./unit-test.sh: line 13: ./build/assignment-autotest/assignment-autotest: No such file or directory
+Unit test failed
+No assignment-test script found for assignment2
+Running test with user vmarvlx
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:16 (add_subdirectory):
+  add_subdirectory given source "assignment-autotest" which is not an
+  existing directory.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/vmarvlx/coursera_linux_programming/Assignment_2/assignment-2-arvind747/build/CMakeFiles/CMakeOutput.log".
+make: *** No rule to make target 'clean'.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
+./unit-test.sh: line 13: ./build/assignment-autotest/assignment-autotest: No such file or directory
+Unit test failed
+No assignment-test script found for assignment2
+Running test with user vmarvlx
+-- Generating ;/home/vmarvlx/coursera_linux_programming/Assignment_2/assignment-2-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_2/assignment-2-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_2/assignment-2-arvind747/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/vmarvlx/coursera_linux_programming/Assignment_2/assignment-2-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_2/assignment-2-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_2/assignment-2-arvind747/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+CMake Error at assignment-autotest/CMakeLists.txt:24 (add_executable):
+  Cannot find source file:
+
+    ../student-test/assignment1/Test_validate_username.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at assignment-autotest/CMakeLists.txt:24 (add_executable):
+  No SOURCES given to target: assignment-autotest
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** No rule to make target 'clean'.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
+./unit-test.sh: line 13: ./build/assignment-autotest/assignment-autotest: No such file or directory
+Unit test failed
+Executing assignment test script
+~/coursera_linux_programming/Assignment_2/assignment-2-arvind747/assignment-autotest/test/assignment2 ~/coursera_linux_programming/Assignment_2/assignment-2-arvind747
+~/coursera_linux_programming/Assignment_2/assignment-2-arvind747/finder-app ~/coursera_linux_programming/Assignment_2/assignment-2-arvind747/assignment-autotest/test/assignment2 ~/coursera_linux_programming/Assignment_2/assignment-2-arvind747
+rm -f writer
+gcc -g -o writer writer.c 
+writer.c: In function ‘main’:
+writer.c:12:8: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   12 |        printf("incorrect number of argument passed\n");
+      |        ^~~~~~
+writer.c:12:8: warning: incompatible implicit declaration of built-in function ‘printf’
+writer.c:5:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    4 | #include <unistd.h>
+  +++ |+#include <stdio.h>
+    5 | 
+writer.c:19:9: warning: incompatible implicit declaration of built-in function ‘printf’
+   19 |         printf("file does not exist \n");
+      |         ^~~~~~
+writer.c:19:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+writer.c:23:29: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+   23 |     nr = write(fd, argv[2], strlen(argv[2]));
+      |                             ^~~~~~
+writer.c:23:29: warning: incompatible implicit declaration of built-in function ‘strlen’
+writer.c:5:1: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+    4 | #include <unistd.h>
+  +++ |+#include <string.h>
+    5 | 
+writer.c:26:9: warning: incompatible implicit declaration of built-in function ‘printf’
+   26 |         printf(" write operation failed \n");
+      |         ^~~~~~
+writer.c:26:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+writer.c:31:9: warning: incompatible implicit declaration of built-in function ‘printf’
+   31 |         printf(" write operation passed \n");
+      |         ^~~~~~
+writer.c:31:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+incorrect number of argument passed
+incorrect number of argument passed
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to aeld-data/
+aeld-data/ created
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment2 complete with success
+Running test with user vmarvlx
+-- Generating  from 
+-- Building executable including   and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vmarvlx/coursera_linux_programming/Assignment_2/assignment-2-arvind747/build
+[ 50%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[100%] Linking C static library libunity.a
+[100%] Built target unity
+Executing assignment test script
+~/coursera_linux_programming/Assignment_2/assignment-2-arvind747/assignment-autotest/test/assignment2 ~/coursera_linux_programming/Assignment_2/assignment-2-arvind747
+~/coursera_linux_programming/Assignment_2/assignment-2-arvind747/finder-app ~/coursera_linux_programming/Assignment_2/assignment-2-arvind747/assignment-autotest/test/assignment2 ~/coursera_linux_programming/Assignment_2/assignment-2-arvind747
+rm -f writer
+gcc -g -o writer writer.c 
+writer.c: In function ‘main’:
+writer.c:12:8: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   12 |        printf("incorrect number of argument passed\n");
+      |        ^~~~~~
+writer.c:12:8: warning: incompatible implicit declaration of built-in function ‘printf’
+writer.c:5:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    4 | #include <unistd.h>
+  +++ |+#include <stdio.h>
+    5 | 
+writer.c:19:9: warning: incompatible implicit declaration of built-in function ‘printf’
+   19 |         printf("file does not exist \n");
+      |         ^~~~~~
+writer.c:19:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+writer.c:23:29: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+   23 |     nr = write(fd, argv[2], strlen(argv[2]));
+      |                             ^~~~~~
+writer.c:23:29: warning: incompatible implicit declaration of built-in function ‘strlen’
+writer.c:5:1: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+    4 | #include <unistd.h>
+  +++ |+#include <string.h>
+    5 | 
+writer.c:26:9: warning: incompatible implicit declaration of built-in function ‘printf’
+   26 |         printf(" write operation failed \n");
+      |         ^~~~~~
+writer.c:26:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+writer.c:31:9: warning: incompatible implicit declaration of built-in function ‘printf’
+   31 |         printf(" write operation passed \n");
+      |         ^~~~~~
+writer.c:31:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+incorrect number of argument passed
+incorrect number of argument passed
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to aeld-data/
+aeld-data/ created
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment2 complete with success
